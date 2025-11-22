@@ -10,10 +10,12 @@ Luego imprime sus valores usando console.log.*/
 const  str: string="this is a string"
 const  price: number = 23
 const trueOrFalse: boolean = true
+const concatenatedString=`${str}--${price}--${trueOrFalse}`
 
 module.exports={
     str,
     price,
-    trueOrFalse
+    trueOrFalse,
+    concatenatedString
 }
 
