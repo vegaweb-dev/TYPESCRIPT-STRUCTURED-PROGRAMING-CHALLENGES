@@ -10,11 +10,8 @@ formatMessage("System ready")
 formatMessage("Connection lost", "ERROR")
 */
 
+const formatMessage = (msg: string, prefix?: string): string => {
+  return prefix ? `${prefix}:${msg}` : `${msg}`;
+};
 
-const formatMessage =(msg:string, prefix?:string):string=>{
-    return prefix? `${prefix}:${msg}`:`${msg}`
-}
-console.log(formatMessage("System ready"))
-console.log(formatMessage("Connection lost","Error"))
-
-module.exports={formatMessage,}
+module.exports = { formatMessage };
