@@ -10,6 +10,4 @@ If age is NOT provided → "Juan did not provide an age"
 
 const formatSentence =(name:string, age?:number):string=>age? `${name} is ${age} years old` : `${name} did not provide an age`
 
-
-
 module.exports = {formatSentence,}
