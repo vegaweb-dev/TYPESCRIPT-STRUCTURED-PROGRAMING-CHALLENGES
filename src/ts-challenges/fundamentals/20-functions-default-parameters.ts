@@ -6,7 +6,8 @@ The function should return the final price after applying the discount.
 */
 
 
-const calculateDiscount =(price:number, discount:number=0.10): number=>price -(price*discount);
+const calculateDiscount = (price: number, discount: number = 0.1): number =>
+	price - price * discount;
 
 
 module.exports={calculateDiscount,}
