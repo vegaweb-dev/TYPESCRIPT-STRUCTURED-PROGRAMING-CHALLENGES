@@ -12,3 +12,5 @@ const formatAddress = (
 	city: string = "Unknown City",
 	country: string = "Unknown Country"
 ): string => `${street}, ${city}, ${country}`;
+
+module.exports = { formatAddress };
