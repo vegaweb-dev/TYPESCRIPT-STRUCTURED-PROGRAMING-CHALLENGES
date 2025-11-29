@@ -9,6 +9,11 @@ sumNumbers([1, 2, 3]) → 6
 sumNumbers([]) → 0
 */
 
-const sumNumbers = (values:number[]):number=>values.length===0 ? 0 : values.reduce((previousValue,currentValue)=>previousValue+currentValue);
+const sumNumbers = (values: number[]): number =>
+	values.length === 0
+		? 0
+		: values.reduce(
+				(previousValue, currentValue) => previousValue + currentValue
+			);
 
-module.exports={sumNumbers,}
+module.exports = { sumNumbers };
