@@ -1,6 +1,62 @@
-const data = require("./src/ts-challenges/fundamentals/fundamentals")
-
-console.log(data.str)
-console.log(data.price)
-console.log(data.trueOrFalse)
-console.log(data.concatenatedString)
+const data = require("./src/ts-challenges/fundamentals/fundamentals");
+const challenge01 = require("./src/ts-challenges/fundamentals/01-object");
+const challenge02 = require("./src/ts-challenges/fundamentals/02-arrays");
+const challenge03 = require("./src/ts-challenges/fundamentals/03-unions");
+const challenge04 = require("./src/ts-challenges/fundamentals/04-typed-return");
+const challenge05 = require("./src/ts-challenges/fundamentals/05-function-optional-parameter");
+const challenge06 = require("./src/ts-challenges/fundamentals/06-function-optional-parameters");
+const challenge07 = require("./src/ts-challenges/fundamentals/07-function-optional-parameters");
+const challenge08 = require("./src/ts-challenges/fundamentals/08-function-optional-parameter");
+const challenge09 = require("./src/ts-challenges/fundamentals/09-functions-optional-parameters");
+const challenge10 = require("./src/ts-challenges/fundamentals/10-functions-optional-parameters");
+const challenge11 = require("./src/ts-challenges/fundamentals/11-functions-optional-parameters");
+const challenge12 = require("./src/ts-challenges/fundamentals/12-functions-optional-parameters");
+const challenge13 = require("./src/ts-challenges/fundamentals/13-functions-optional-parameters");
+const challenge14 = require("./src/ts-challenges/fundamentals/14-functions-optional-parameters");
+const challenge15 = require("./src/ts-challenges/fundamentals/15-functions-optional-parameters");
+const challenge16 = require("./src/ts-challenges/fundamentals/16-functions-optional-parameter");
+const challenge17 = require("./src/ts-challenges/fundamentals/17-functions-optional-parameters");
+const challenge18 = require("./src/ts-challenges/fundamentals/18-functions-optional-parameters");
+const challenge19 = require("./src/ts-challenges/fundamentals/19-function-optional-parameters");
+const challenge20 = require("./src/ts-challenges/fundamentals/20-functions-default-parameters");
+const challenge21 = require("./src/ts-challenges/fundamentals/21-functions-default-parameters");
+const challenge22 = require("./src/ts-challenges/fundamentals/22-functions-default-parameters");
+const challenge23 = require("./src/ts-challenges/fundamentals/23-arrays-tuples");
+const challenge24 = require("./src/ts-challenges/fundamentals/24-tuples");
+const challenge25 = require("./src/ts-challenges/fundamentals/25-arrays-tuples");
+const challenge26 = require("./src/ts-challenges/fundamentals/26-arrays-tuples");
+console.log(data.str);
+console.log(data.price);
+console.log(data.trueOrFalse);
+console.log(data.concatenatedString);
+console.log(challenge01.movie);
+console.log(challenge02.scores);
+console.log(challenge03.identifier);
+console.log(challenge04.sum(5, 7));
+console.log(challenge05.formatMessage("test"));
+console.log(challenge06.formatTitle("this is a test", "this is also a test"));
+console.log(challenge07.formatHeadLine("test", 6));
+console.log(challenge08.formatUser("carlos", "amigo"));
+console.log(challenge09.formatEmail("carlos", "edu"));
+console.log(challenge10.formatProduct("car"));
+console.log(challenge11.formatPrice("laptop"));
+console.log(challenge12.formatAddress("Walcon Street"));
+console.log(challenge13.formatPhone("232-345-34356", "+1"));
+console.log(challenge14.formatCoordinates("100", "234"));
+console.log(challenge15.formatWeather("37°", "Extremely hot"));
+console.log(challenge16.formatOrder("Asus prt-pc"));
+console.log(challenge17.formatNotification("this is the message", "type"));
+console.log(challenge18.formatSentence("James", 67));
+console.log(challenge19.greet("Carlos", "Vega"));
+console.log(challenge20.calculateDiscount(100, 0.1));
+console.log(challenge21.formatAddress("Americas"));
+console.log(challenge22.repeatText("texto", 9));
+console.log(challenge23.getFirstThree(["alfa", "bravo"]));
+console.log(challenge24.getUserTuple("carlos", 27));
+console.log(
+  challenge25.filterLongWords(
+    ["test1", "test2", "test3", "test4", "test5", "testtesterson1"],
+    5,
+  ),
+);
+console.log(challenge26.sumNumbers([1, 2, 3, 4]));
