@@ -9,9 +9,9 @@ Example:
 getUserTuple("Ana", 30) → ["Ana", 30]
 */
 
-type typeOfOutput = [string,number]
-const getUserTuple = (name:string, age:number):typeOfOutput =>{
-    return [name, age] as typeOfOutput
-}
+type typeOfOutput = [string, number];
+const getUserTuple = (name: string, age: number): typeOfOutput => {
+  return [name, age] as typeOfOutput;
+};
 
-module.exports = {getUserTuple,}
+module.exports = { getUserTuple };

@@ -9,7 +9,7 @@ filterLongWords(["hi","hello","typescript"], 5) → ["hello","typescript"]
 filterLongWords(["a","bb","ccc"], 2) → ["bb","ccc"]
 */
 
+const filterLongWords = (words: string[], minLength: number): string[] =>
+  words.filter((el) => el.length >= minLength);
 
-const filterLongWords =(words:string[], minLength: number):string[]=>words.filter(el=>el.length>=minLength)
-
-module.exports = {filterLongWords}
+module.exports = { filterLongWords };

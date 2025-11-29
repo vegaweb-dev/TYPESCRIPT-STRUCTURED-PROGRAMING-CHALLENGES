@@ -7,8 +7,9 @@ The function must return:
 "Temperature: X°" → if condition is NOT provided
 */
 
+const formatWeather = (temperature: string, condition?: string): string =>
+  condition
+    ? `Temperature: ${temperature}, Condition: ${condition}`
+    : `Temperature: ${temperature}`;
 
-const formatWeather=(temperature:string, condition?:string):string=>condition? `Temperature: ${temperature}, Condition: ${condition}`:`Temperature: ${temperature}`
-
-
-module.exports={formatWeather,}
+module.exports = { formatWeather };

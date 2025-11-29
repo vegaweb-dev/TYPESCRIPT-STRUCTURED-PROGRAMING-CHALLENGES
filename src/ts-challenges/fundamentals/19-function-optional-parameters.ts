@@ -7,6 +7,7 @@ If both names are provided → "Hello, John Smith!"
 If lastName is not provided → "Hello, John Doe!"
 */
 
-const greet =(firstName:string,lastName:string="Doe"):string=>`Hello, ${firstName} ${lastName}!`
+const greet = (firstName: string, lastName: string = "Doe"): string =>
+  `Hello, ${firstName} ${lastName}!`;
 
-module.exports={greet,}
+module.exports = { greet };

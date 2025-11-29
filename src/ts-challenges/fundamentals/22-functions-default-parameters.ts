@@ -8,16 +8,16 @@ If times is less than 1, return "Invalid repetition count".
 */
 
 const repeatText = (text: string, times: number = 2): string => {
-	let text1: string = "";
-	if (times < 1) {
-		text1 = "Invalid repetition count";
-	}
+  let text1: string = "";
+  if (times < 1) {
+    text1 = "Invalid repetition count";
+  }
 
-	for (let i = 0; i < times; i++) {
-		text1 += text;
-	}
+  for (let i = 0; i < times; i++) {
+    text1 += text;
+  }
 
-	return text1;
+  return text1;
 };
 
 module.exports = { repeatText };

@@ -9,7 +9,6 @@ getFirstThree(["a","b","c","d"]) → ["a","b","c"]
 getFirstThree(["x"]) → ["x"]
 */
 
-
 /*
 --Solution 1
 type maxThreeStrings = [] | [string] | [string,string] | [string,string,string] 
@@ -27,7 +26,12 @@ return copy as maxThreeStrings
 
 //--Solution 2.
 
-type maxThreeItems =[] | [string] | [string,string] |  [string,string,string]
-const getFirstThree=(items:string[]):maxThreeItems=>items.slice(0,3) as maxThreeItems;
+type maxThreeItems =
+  | []
+  | [string]
+  | [string, string]
+  | [string, string, string];
+const getFirstThree = (items: string[]): maxThreeItems =>
+  items.slice(0, 3) as maxThreeItems;
 
-module.exports={getFirstThree}
+module.exports = { getFirstThree };

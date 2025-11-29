@@ -7,7 +7,7 @@ The function must return:
 "productName" if price is not provided
 */
 
+const formatProduct = (productName: string, price?: number) =>
+  price ? `${productName} - $${price}` : `${productName}`;
 
-const formatProduct =(productName:string, price?:number)=> price ? `${productName} - $${price}`:`${productName}`
-
-module.exports = {formatProduct,}
+module.exports = { formatProduct };

@@ -7,9 +7,11 @@ The function must return:
 "productName price not available" if price is not provided
 */
 
+const formatPrice = (productName: string, price?: number): string =>
+  price
+    ? `${productName} costs ${price}`
+    : `${productName} price not available`;
 
-const formatPrice =(productName:string,price?:number):string=>price? `${productName} costs ${price}`:`${productName} price not available`
-
-module.exports={
-    formatPrice,
-}
+module.exports = {
+  formatPrice,
+};

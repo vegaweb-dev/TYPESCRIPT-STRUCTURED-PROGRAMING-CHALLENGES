@@ -10,10 +10,10 @@ sumNumbers([]) → 0
 */
 
 const sumNumbers = (values: number[]): number =>
-	values.length === 0
-		? 0
-		: values.reduce(
-				(previousValue, currentValue) => previousValue + currentValue
-			);
+  values.length === 0
+    ? 0
+    : values.reduce(
+        (previousValue, currentValue) => previousValue + currentValue,
+      );
 
 module.exports = { sumNumbers };

@@ -7,8 +7,7 @@ Return:
 "street" → if city is NOT provided
 */
 
+const formatAddress = (street: string, city?: string): string =>
+  city ? `${street},${city}` : `${street}`;
 
-
-const formatAddress =(street:string,city?:string):string=>city? `${street},${city}`:`${street}`
-
-module.exports={formatAddress,}
+module.exports = { formatAddress };

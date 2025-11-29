@@ -8,9 +8,9 @@ The function must return a single string in the exact format:
 */
 
 const formatAddress = (
-	street: string,
-	city: string = "Unknown City",
-	country: string = "Unknown Country"
+  street: string,
+  city: string = "Unknown City",
+  country: string = "Unknown Country",
 ): string => `${street}, ${city}, ${country}`;
 
 module.exports = { formatAddress };

@@ -7,8 +7,7 @@ The function must return:
 "username" if no role is provided
 */
 
+const formatUser = (username: string, role?: string): string =>
+  role ? `${username} (${role})` : `${username}`;
 
-
-const formatUser =(username:string,role?:string):string=>role? `${username} (${role})` : `${username}`
-
-module.exports={formatUser,}
+module.exports = { formatUser };

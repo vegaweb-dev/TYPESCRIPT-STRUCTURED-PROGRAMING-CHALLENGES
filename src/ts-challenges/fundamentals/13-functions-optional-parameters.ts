@@ -7,7 +7,7 @@ Return:
 "number" → if not provided
 */
 
+const formatPhone = (number: string, countryCode?: string): string =>
+  countryCode ? `${countryCode}${number}` : `${number}`;
 
-const formatPhone =(number:string, countryCode?:string):string=>countryCode ? `${countryCode}${number}`:`${number}`
-
-module.exports={formatPhone,}
+module.exports = { formatPhone };

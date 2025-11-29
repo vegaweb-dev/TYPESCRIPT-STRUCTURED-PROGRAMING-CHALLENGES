@@ -10,6 +10,7 @@ formatTitle("Introduction") → "Introduction"
 formatTitle("Testing", "QA") → "Testing - QA"
 */
 
-const formatTitle=(title:string, category?:string):string=>category? `${title}-${category}`: `${title}`
+const formatTitle = (title: string, category?: string): string =>
+  category ? `${title}-${category}` : `${title}`;
 
-module.exports={formatTitle,}
+module.exports = { formatTitle };
